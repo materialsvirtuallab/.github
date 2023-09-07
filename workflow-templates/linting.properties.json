@@ -1,0 +1,11 @@
+{
+    "name": "Python Linting Workflow",
+    "description": "ython Linting Workflow",
+    "iconName": "example-icon",
+    "categories": [
+        "code-quality"
+    ],
+    "filePatterns": [
+        ".*\\.py$"
+    ]
+}
