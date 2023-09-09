@@ -15,14 +15,6 @@ body:
       placeholder: ex. email@example.com
     validations:
       required: false
-  - type: textarea
-    id: what-happened
-    attributes:
-      label: What happened?
-      description: What happened?
-      placeholder: Tell us what you see!
-    validations:
-      required: true
   - type: input
     id: version
     attributes:
@@ -31,20 +23,44 @@ body:
       placeholder: v2023.1.1
     validations:
       required: true
-  - type: dropdown
-    id: OS
+  - type: checkboxes
+    id: operating-systems
     attributes:
-      label: What OS(es) are you seeing the problem on?
-      multiple: true
+      label: Which OS(es) are you using?
+      description: You may select more than one.
       options:
-        - Linux
-        - Windows
-        - Mac
+        - label: MacOS
+        - label: Windows
+        - label: Linux
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Provide a concise description of the bug.
+      placeholder: |
+        1. I am attempting to do this (code snippet given below).
+        2. Expected behavior: ...
+        3. Instead, got this behavior: ...
+        4. Proposed solution (if any). Even better, you can just submit a PR with your solution to contribute to the community.
+
+        Tip: You can attach images or files by clicking this area and then dragging files in.
+    validations:
+      required: true
+  - type: textarea
+    id: snippet
+    attributes:
+      label: Code snippet
+      description: |
+        Please provide a code snippet to reproduce the bug. This will be automatically formatted into code, so no need for backticks.
+      render: python
   - type: textarea
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output, especially error messages. This will be automatically formatted into code, so no need for backticks.
+      label: Log output
+      description: |
+        Please provide any relevant log output, especially error messages. This will be automatically formatted, so no need for backticks.
       render: shell
   - type: checkboxes
     id: terms
