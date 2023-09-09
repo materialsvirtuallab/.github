@@ -1,4 +1,4 @@
-The Materials Virtual Lab at the University of California San Diego‘s Department of NanoEngineering is a materials AI group focused on the cross-disciplinary application of machine learning to large materials data sets to accelerate materials design. We develop cutting-edge software frameworks for automation of calculations, sophisticated data infrastructure for large materials data, and state-of-the-art machine learning models with high predictive accuracy.
+The Materials Virtual Lab at the University of California San Diego‘s Department of NanoEngineering is a materials AI group focused on the cross-disciplinary application of materials science, computer science and  machine learning to accelerate materials design. We develop cutting-edge software frameworks for automation of calculations, sophisticated data infrastructure for large materials data, and state-of-the-art machine learning models with high predictive accuracy.
 
 # Vision
 
