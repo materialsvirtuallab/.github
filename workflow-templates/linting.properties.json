@@ -1,6 +1,6 @@
 {
-    "name": "Python Linting Workflow",
-    "description": "ython Linting Workflow",
+    "name": "Python Lint Workflow",
+    "description": "Python Lint Workflow",
     "iconName": "example-icon",
     "categories": [
         "code-quality"
